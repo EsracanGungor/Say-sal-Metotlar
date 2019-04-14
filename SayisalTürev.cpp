@@ -1,5 +1,4 @@
 #include<iostream>
-//Dosyadan okuma yazma islemi yapmak icin eklenmesi gereken kütüphane:
 #include<fstream>
 //Bu kod sadece 3 sayi oldugunda gecerlidir.
 using namespace std;
@@ -9,9 +8,8 @@ int main() {
 	int noktasayisi;
 	double x0, y0, x1, y1, x2, y2,h;
 	double turev1;//ilk sayi icin türev
-	double turev2;/*ortadakiler icin türev ortadaki sayilar icin
-				  hepsi tek tek hesaplanacagindan y0 degerlerinde kayma olur.
-	*/double turev3;//son sayi icin türev
+	double turev2;//ortadakiler icin türev ortadaki sayilar icin hepsi tek tek hesaplanacagindan y0 degerlerinde kayma olur.
+	double turev3;//son sayi icin türev
 	double turevsonuc;
 	dosya.open("veri.txt");
 	//Dosyanin varliginin kontrolü
