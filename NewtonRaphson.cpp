@@ -1,6 +1,6 @@
 #include<iostream>
 #include<math.h>
-#define TOL 0.001
+#define TOL 0.001 //Tolerans degeri
 
 using namespace std;
 
