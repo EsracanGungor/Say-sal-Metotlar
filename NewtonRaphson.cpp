@@ -22,7 +22,7 @@ void newtonraphson(double x)
 	while (abs(h) >= TOL)
 	{
 		h = fonksiyon(x) / fonkturevi(x);
-
+		//Newton raphson metod formülü
 		// x(i+1) = x(i) - f(x) / f'(x)  
 		x = x - h;
 	}
